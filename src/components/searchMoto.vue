@@ -13,7 +13,7 @@
     <p v-for="items in infos" :key="items.engineAndTransmission">{{items.engineAndTransmission.displacementName}}</p>
     <p v-for="items in infos" :key="items.engineAndTransmission">{{items.engineAndTransmission.powerName}}</p>
     <p v-for="items in infos" :key="items.physicalMeasuresAndCapacities">{{items.physicalMeasuresAndCapacities.weightInclOilGasEtcName}}</p>
-    <img src=`${{items?.articleImage?.link}}` alt="test" />
+    <!-- <img src=`${{items?.articleImage?.link}}` alt="test" /> -->
     </div>
     <div class="single-search2">
         <div>
@@ -27,7 +27,6 @@
         <p v-for="items in infos2" :key="items.engineAndTransmission">{{items.engineAndTransmission.displacementName}}</p>
         <p v-for="items in infos2" :key="items.engineAndTransmission">{{items.engineAndTransmission.powerName}}</p>
         <p v-for="items in infos2" :key="items.physicalMeasuresAndCapacities">{{items.physicalMeasuresAndCapacities.weightInclOilGasEtcName}}</p>
-        
     </div>
 </div>
 </template>
